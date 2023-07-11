@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "TestPressureSensor",
+			"path": "../../../Documents/PlatformIO/Projects/TestPressureSensor"
+		}
+	],
+	"settings": {}
+}
