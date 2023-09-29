@@ -1,4 +1,4 @@
-# pneuCNTRL2 Firmware
+# pneuCNTRL2 Firmware for Inflatostories
 8 channel pressure controlled inlation/deflation system for the inflatable haptics experiments
 
 Setup:
