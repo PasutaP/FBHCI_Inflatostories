@@ -165,17 +165,17 @@ SEQ_CH ch6_seq = {32, 57, 99, 18,  9,  0 };//ch 6P: test Flute/notn
 // DATA_P dataPoint_6 = { 8,  0,   0,  0,  0,  0};
 
 
-// Pigs, house 1, house 2, house 3, wolf
+// Pigs, house 1, house 3, house 2, wolf
 DATA_P dataPoint_1 = {0,   0,   0,  0,  0, 0,  0}; // reset
-DATA_P dataPoint_2 = {80,  0,   0,  0,  0, 0,  0}; // Inflate all pig
-DATA_P dataPoint_3 = {0, 80,  80, 80,  0, 0,  0}; // Inflate all house
+DATA_P dataPoint_2 = {8,  0,   0,  0,  0, 0,  0}; // Inflate all pig
+DATA_P dataPoint_3 = {0, 15,  10, 10,  0, 0,  0}; // Inflate all house
 DATA_P dataPoint_4 = {0, 0,  0, 0, 10, 0,  0}; // Inflate wolf
 DATA_P dataPoint_5 = {0,  0,  0, 0, 10, 0,  0}; // Open valve 1st house
 DATA_P dataPoint_6 = {0,  0,   0, 0, 10, 0,  0}; // Open valve 2nd house
-DATA_P dataPoint_7 = {0,  0,   0, 5,  0, 0,  0}; // Open valve for wolf
-//DATA_P dataPoint_6 = {85,  0,   0,  0,  0,  0};
+DATA_P dataPoint_7 = {0,  0,   10, 0,  10, 0,  0}; // Try deflate third house
+DATA_P dataPoint_8 = {0,  0,   10, 0,  0, 0,  0}; // Open valve for wolf
 
-DATA_P sequence [] = {dataPoint_1, dataPoint_2, dataPoint_3, dataPoint_4, dataPoint_5, dataPoint_6, dataPoint_7};
+DATA_P sequence [] = {dataPoint_1, dataPoint_2, dataPoint_3, dataPoint_4, dataPoint_5, dataPoint_6, dataPoint_7, dataPoint_8};
 //DATA_P sequence[4];
 
 #define SEQ_LNGTH int((sizeof sequence)/sizeof(*sequence))  // calc sequence length
